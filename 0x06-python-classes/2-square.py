@@ -14,7 +14,6 @@ class Square:
         """
         private instance attribute
         parameters
-        ------------------
         size : integer else TypeError
         if size less than 0, raise value error
         """
