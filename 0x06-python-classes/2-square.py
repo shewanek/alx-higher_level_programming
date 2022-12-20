@@ -14,6 +14,7 @@ class Square:
         """
         private instance attribute
         parameters
+        ------------------
         size : integer else TypeError
         if size less than 0, raise value error
         """
@@ -24,3 +25,4 @@ class Square:
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
+            
